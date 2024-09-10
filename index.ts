@@ -13,7 +13,7 @@ class Queue {
 
       // Start processing if not already started
       if (!this.isRunning) {
-        this.processQueue();
+        this.processQueue().then(r => null);
       }
     });
   }
