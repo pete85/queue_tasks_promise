@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es2015",          // Target ECMAScript version (at least ES2015)
+    "lib": ["es2015", "dom"],    // Include ES2015 and DOM libraries (if applicable)
+    "module": "commonjs",        // This is typical for Node.js projects
+    "strict": true,              // Optional but recommended for strict type checking
+    "esModuleInterop": true,     // Ensure ES module compatibility
+    "skipLibCheck": true         // Skip checking declaration files (.d.ts)
+  }
+}
